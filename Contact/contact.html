@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Techynews</div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../About/about.html">About</a></li>
+            <li><a href="../Blog/blog.html">Blogs</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+<section id="contact">
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <p>Have questions, feedback, or want to collaborate? Reach out to us! We'd love to hear from you.</p>
+  
+      <!-- Contact Form -->
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+  
+      <!-- Google Map -->
+      <div class="map-container">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4123454628466!2d-122.41941568469153!3d37.77492977975811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085817e462ca6f1%3A0x2a63ef0febb1d23d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1615453038128!5m2!1sen!2sus"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <li><a href="../index.html">Home</a></li>
+          <li><a href="../About/about.html">About</a></li>
+          <li><a href="../Blog/blog.html">Blogs</a></li>
+          <li><a href="../Contact/contact.html">Contact</a></li>
+      </div>
+  
+      <div class="footer-social">
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" class="social-icon x-icon">X<i class="X"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p id="copyright"></p>
+    </div>
+  </footer>
+  
+<script src="contact.js"></script>
+</body>
+</html>
