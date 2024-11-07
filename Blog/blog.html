@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="blog.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Techynews</div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../About/about.html">About</a></li>
+          <li><a href="../Blog/blog.html">Blogs</a></li>
+          <li><a href="../Contact/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+<section id="blog">
+    <div class="blog-container">
+      <h1>TechyNews Blog</h1>
+      <p>Your hub for the latest in tech insights, trends, and news.</p>
+  
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" id="blog-search" placeholder="Search blog posts..." />
+        <button type="button">Search</button>
+      </div>
+  
+      <!-- Blog Categories -->
+      <div class="categories">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Artificial Intelligence</a></li>
+          <li><a href="#">Gadgets</a></li>
+          <li><a href="#">Cybersecurity</a></li>
+          <li><a href="#">Software</a></li>
+          <li><a href="#">Innovation</a></li>
+        </ul>
+      </div>
+        <!-- Blog Post 1 -->
+        <div class="post">
+          <img src="../images/image1.webp" alt="AI Breakthrough" />
+          <h2>AI Breakthrough: New Advancements in Language Models</h2>
+          <span>November 1, 2024</span>
+          <p>
+            The world of artificial intelligence saw a major milestone recently,
+            with researchers unveiling a language model that demonstrates
+            unprecedented accuracy and understanding. This breakthrough is
+            expected to revolutionize industries reliant on natural language
+            processing.
+          </p>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="post">
+          <img src="../images/image2.jpg" alt="Quantum Computing" />
+          <h2>Quantum Computing Moves Closer to Reality</h2>
+          <span>November 3, 2024</span>
+          <p>
+            Quantum computing is one step closer to becoming mainstream as
+            scientists develop new qubits capable of longer coherence times.
+            This advancement could pave the way for highly efficient
+            computational capabilities, reshaping fields such as cryptography
+            and material science.
+          </p>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="post">
+          <img src="../images/image3.png" alt="Metaverse Expansion" />
+          <h2>Metaverse Expands: New Platforms and Features Announced</h2>
+          <span>November 4, 2024</span>
+          <p>
+            Leading tech companies have introduced new virtual environments
+            within the metaverse, enhancing social interaction, commerce, and
+            gaming. With these updates, users can explore immersive experiences,
+            attend virtual events, and even shop in virtual stores from anywhere
+            in the world.
+          </p>
+        </div>
+
+        <!-- Blog Post 4 -->
+        <div class="post">
+          <img src="../images/image4.jpg" alt="5G Revolution" />
+          <h2>5G Revolution: Transforming Connectivity Across the Globe</h2>
+          <span>November 5, 2024</span>
+          <p>
+            The rollout of 5G technology is accelerating, bringing faster
+            internet speeds and reduced latency to millions of users worldwide.
+            As more countries adopt 5G, experts predict major changes in IoT,
+            remote work, and smart city development.
+          </p>
+        </div>
+        <!-- Blog Post 5 -->
+        <div class="post">
+          <img src="../images/image5.webp" alt="Wearable Technology" />
+          <h2>Wearable Technology: Next-Gen Health Monitoring</h2>
+          <span>November 6, 2024</span>
+          <p>
+            The wearable tech industry is pushing boundaries with new devices
+            that monitor health metrics in real-time. Innovations in
+            smartwatches and fitness bands allow for better tracking of heart
+            health, oxygen levels, and sleep quality, empowering users to make
+            informed health choices.
+          </p>
+        </div>
+
+        <!-- Blog Post 6 -->
+        <div class="post">
+          <img src="../images/image6.jpg" alt="Cybersecurity Advances" />
+          <h2>Cybersecurity Advances to Counter New Threats</h2>
+          <span>November 7, 2024</span>
+          <p>
+            With the rise of sophisticated cyber threats, companies are
+            developing new cybersecurity measures. From AI-driven security
+            protocols to advanced encryption methods, these innovations aim to
+            safeguard sensitive data and enhance digital privacy for users and
+            organizations worldwide.
+          </p>
+        </div>
+
+        <!-- Blog Post 7 -->
+        <div class="post">
+          <img src="../images/image7.webp" alt="AR in Retail" />
+          <h2>Augmented Reality (AR) Enhances Shopping Experience</h2>
+          <span>November 8, 2024</span>
+          <p>
+            Augmented reality is transforming the retail experience, allowing
+            consumers to virtually try on clothes, view products in 3D, and
+            experience real-time customization. Major brands are investing in AR
+            technology to make online and in-store shopping more interactive and
+            engaging.
+          </p>
+        </div>
+
+        <!-- Blog Post 8 -->
+        <div class="post">
+          <img src="../images/image8.png" alt="Electric Vehicles" />
+          <h2>Electric Vehicles: Charging Stations Expanding Globally</h2>
+          <span>November 9, 2024</span>
+          <p>
+            The global shift toward electric vehicles (EVs) is driving massive
+            expansion in charging infrastructure. Countries are investing
+            heavily in building fast-charging networks, making EVs a more viable
+            option for drivers worldwide and supporting a sustainable future for
+            transportation.
+          </p>
+        </div>
+      </section>
+
+      <section id="comments-section">
+        <h2>Comments</h2>
+        <form id="comment-form">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <textarea id="message" placeholder="Your Comment" required></textarea>
+          <button type="submit">Post Comment</button>
+        </form>
+        <div id="comments"></div>
+      </section>
+    </div>
+  
+  <footer id="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="../About/about.html">About</a>
+        <a href="../Blog/blog.html">Blogs</a>
+        <a href="../Contact/contact.html">Contact</a>
+      </div>
+  
+      <div class="footer-social">
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" class="social-icon x-icon">X<i class="X"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p id="copyright"></p>
+    </div>
+  </footer>
+  
+<script src="blog.js"></script>
+</body>
+</html>
